@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER BANNER WITH ANIMATED TYPING -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=220&section=header&text=Wahyu%20Trianto&fontSize=42&fontColor=58a6ff&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20UI%2FUX%20Designer&descSize=18&descColor=8b949e&descAlignY=55&animation=fadeIn" alt="Header"/>
+<img width="100%" src="https://raw.githubusercontent.com/whtrianto/whtrianto/main/assets/header.svg" alt="Header"/>
 
 <!-- ANIMATED TYPING -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%F0%9F%9A%80+Building+Modern+Web+Experiences;%F0%9F%8E%A8+Crafting+Pixel-Perfect+Interfaces;%E2%9A%A1+Turning+Ideas+Into+Digital+Reality" alt="Typing SVG" /></a>
@@ -132,14 +132,6 @@
 <!-- FOOTER -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:0d1117&height=120&section=footer" alt="Footer"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/Thanks%20for%20visiting!-58a6ff?style=for-the-badge" alt="Thanks"/>
-
-<br/><br/>
-
-⭐️ From [whtrianto](https://github.com/whtrianto) — *"Code is poetry, design is art, and I create both."*
+<img width="100%" src="https://raw.githubusercontent.com/whtrianto/whtrianto/main/assets/footer.svg" alt="Footer"/>
 
 </div>

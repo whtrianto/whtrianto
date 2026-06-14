@@ -1,0 +1,66 @@
+<svg fill="none" viewBox="0 0 850 80" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes rotate-gradient {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+
+        @keyframes pulse-text {
+          0%, 100% { opacity: 0.8; }
+          50% { opacity: 1; text-shadow: 0 0 10px rgba(88, 166, 255, 0.5); }
+        }
+
+        .container {
+          width: 100%;
+          height: 80px;
+          background: linear-gradient(-45deg, #0d1117, #161b22, #0d1117);
+          background-size: 400% 400%;
+          animation: rotate-gradient 10s ease infinite;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          position: relative;
+          overflow: hidden;
+          border-radius: 12px;
+          border: 1px solid rgba(56, 139, 253, 0.15);
+          box-sizing: border-box;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .content {
+          color: #8b949e;
+          font-size: 14px;
+          font-weight: 500;
+          letter-spacing: 0.5px;
+          animation: pulse-text 3s ease-in-out infinite;
+          display: flex;
+          align-items: center;
+          gap: 6px;
+        }
+
+        .heart {
+          color: #f78166;
+          display: inline-block;
+          animation: beat 1s infinite alternate;
+        }
+
+        @keyframes beat {
+          to { transform: scale(1.2); }
+        }
+      </style>
+      <div class="container">
+        <div class="content">
+          <span>Created with</span>
+          <span class="heart">❤️</span>
+          <span>by</span>
+          <strong style="color: #58a6ff;">whtrianto</strong>
+          <span style="color: #8b949e; opacity: 0.5;">|</span>
+          <span>Thanks for visiting my profile!</span>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

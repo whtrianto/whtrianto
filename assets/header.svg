@@ -1,0 +1,152 @@
+<svg fill="none" viewBox="0 0 850 260" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes rotate-gradient {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+
+        @keyframes float-symbol {
+          0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.2; }
+          50% { transform: translateY(-15px) rotate(10deg); opacity: 0.6; }
+        }
+
+        @keyframes pulse-glow {
+          0%, 100% { filter: drop-shadow(0 0 15px rgba(88, 166, 255, 0.6)); }
+          50% { filter: drop-shadow(0 0 25px rgba(139, 92, 246, 0.8)); }
+        }
+
+        @keyframes grid-move {
+          0% { background-position: 0 0; }
+          100% { background-position: 0 40px; }
+        }
+
+        .container {
+          width: 100%;
+          height: 260px;
+          background: linear-gradient(-45deg, #0d1117, #161b22, #0f141c, #0d1117);
+          background-size: 400% 400%;
+          animation: rotate-gradient 15s ease infinite;
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+          position: relative;
+          overflow: hidden;
+          border-radius: 12px;
+          border: 1px solid rgba(56, 139, 253, 0.15);
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+
+        /* Grid overlay */
+        .grid {
+          position: absolute;
+          top: 0; left: 0; right: 0; bottom: 0;
+          background-image: 
+            linear-gradient(to right, rgba(88, 166, 255, 0.04) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(88, 166, 255, 0.04) 1px, transparent 1px);
+          background-size: 40px 40px;
+          animation: grid-move 8s linear infinite;
+        }
+
+        /* Glowing center radial */
+        .glow {
+          position: absolute;
+          width: 300px;
+          height: 300px;
+          background: radial-gradient(circle, rgba(88, 166, 255, 0.12) 0%, rgba(139, 92, 246, 0.03) 70%, transparent 100%);
+          top: -20px;
+          filter: blur(20px);
+        }
+
+        /* Animated code shapes */
+        .symbol {
+          position: absolute;
+          font-family: 'Fira Code', monospace;
+          font-weight: bold;
+          color: #58a6ff;
+          user-select: none;
+        }
+
+        .s1 { top: 40px; left: 80px; font-size: 24px; animation: float-symbol 6s ease-in-out infinite; }
+        .s2 { bottom: 50px; left: 120px; font-size: 18px; color: #8b949e; animation: float-symbol 8s ease-in-out infinite 1s; }
+        .s3 { top: 60px; right: 100px; font-size: 22px; color: #ab9df2; animation: float-symbol 7s ease-in-out infinite 0.5s; }
+        .s4 { bottom: 40px; right: 140px; font-size: 26px; animation: float-symbol 9s ease-in-out infinite 2s; }
+
+        .content {
+          text-align: center;
+          z-index: 10;
+          pointer-events: none;
+        }
+
+        .title {
+          font-size: 44px;
+          font-weight: 800;
+          background: linear-gradient(90deg, #58a6ff, #ab9df2, #ff79c6, #58a6ff);
+          background-size: 200% auto;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation: rotate-gradient 6s linear infinite;
+          margin: 0;
+          letter-spacing: -1.5px;
+          animation-name: rotate-gradient;
+        }
+
+        .glow-title {
+          animation: pulse-glow 4s ease-in-out infinite;
+        }
+
+        .subtitle {
+          font-size: 18px;
+          color: #8b949e;
+          margin-top: 10px;
+          margin-bottom: 0;
+          font-weight: 500;
+          letter-spacing: 1px;
+          word-spacing: 2px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+        }
+
+        .tag {
+          background: rgba(88, 166, 255, 0.1);
+          border: 1px solid rgba(88, 166, 255, 0.2);
+          padding: 2px 10px;
+          border-radius: 20px;
+          font-size: 13px;
+          color: #58a6ff;
+          font-family: 'Fira Code', monospace;
+          margin-top: 15px;
+          display: inline-block;
+        }
+      </style>
+      <div class="container">
+        <div class="grid"></div>
+        <div class="glow"></div>
+        
+        <!-- Floating code accents -->
+        <div class="symbol s1">&lt;/&gt;</div>
+        <div class="symbol s2">const</div>
+        <div class="symbol s3">{ }</div>
+        <div class="symbol s4">[]</div>
+
+        <div class="content">
+          <div class="glow-title">
+            <h1 class="title">Wahyu Trianto</h1>
+          </div>
+          <p class="subtitle">
+            <span>Full Stack Developer</span>
+            <span style="color: #388bfd;">•</span>
+            <span>UI/UX Designer</span>
+          </p>
+          <div class="tag">npm run experience --level=pro</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
