@@ -21,23 +21,20 @@
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> &nbsp;About Me
 
 <table border="0">
-  <tr>
-    <td width="60%" valign="top">
-      <p>👋 &nbsp;Hi there! I am a passionate Full Stack Developer and UI/UX Designer dedicated to crafting stunning digital experiences using modern web technologies.</p>
-      
-      <p>🚀 &nbsp;Currently focusing on building scalable and robust <b>Web Applications</b>.<br/>
-      🎨 &nbsp;Passionate about creating clean, elegant, and user-centric <b>UI/UX Designs</b>.<br/>
-      🌱 &nbsp;Constantly learning new frameworks and staying aligned with the latest industry standards.<br/>
-      📍 &nbsp;Based in <b>Indonesia</b> 🇮🇩</p>
-      
-      <p>🌐 &nbsp;Check out my projects on my [<b>Portfolio Website</b>](https://wahyutrianto.anstonic.site/).</p>
-      
-      <p>⚡ &nbsp;Fun fact: <i>"I debug with console.log and I'm proud of it!"</i> 😄</p>
-    </td>
-    <td width="40%" valign="center" align="center">
-      <img alt="Coding" width="280" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
-    </td>
-  </tr>
+<tr>
+<td width="60%" valign="top">
+<p>👋 &nbsp;Hi there! I am a passionate Full Stack Developer and UI/UX Designer dedicated to crafting stunning digital experiences using modern web technologies.</p>
+<p>🚀 &nbsp;Currently focusing on building scalable and robust <b>Web Applications</b>.<br/>
+🎨 &nbsp;Passionate about creating clean, elegant, and user-centric <b>UI/UX Designs</b>.<br/>
+🌱 &nbsp;Constantly learning new frameworks and staying aligned with the latest industry standards.<br/>
+📍 &nbsp;Based in <b>Indonesia</b> 🇮🇩</p>
+<p>🌐 &nbsp;Check out my projects on my <a href="https://wahyutrianto.anstonic.site/"><b>Portfolio Website</b></a>.</p>
+<p>⚡ &nbsp;Fun fact: <i>"I debug with console.log and I'm proud of it!"</i> 😄</p>
+</td>
+<td width="40%" valign="center" align="center">
+<img alt="Coding" width="280" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+</td>
+</tr>
 </table>
 
 <br/>
