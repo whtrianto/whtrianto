@@ -116,18 +116,7 @@
 
 </div>
 
----
 
-<!-- GITHUB TROPHIES -->
-## 🏆 &nbsp;GitHub Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=whtrianto&theme=onestar&no-bg=true&no-frame=true&column=7&margin-w=10&margin-h=10)](https://github.com/whtrianto)
-
-</div>
-
----
 
 <!-- RANDOM DEV QUOTE -->
 ## 💡 &nbsp;Random Dev Quote
