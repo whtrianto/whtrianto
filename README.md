@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER BANNER WITH ANIMATED TYPING -->
-<img width="100%" src="https://raw.githubusercontent.com/whtrianto/whtrianto/main/assets/header.svg" alt="Header"/>
+<img width="100%" src="assets/header.svg" alt="Header"/>
 
 <!-- ANIMATED TYPING -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%F0%9F%9A%80+Building+Modern+Web+Experiences;%F0%9F%8E%A8+Crafting+Pixel-Perfect+Interfaces;%E2%9A%A1+Turning+Ideas+Into+Digital+Reality" alt="Typing SVG" /></a>
@@ -132,6 +132,6 @@
 <!-- FOOTER -->
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/whtrianto/whtrianto/main/assets/footer.svg" alt="Footer"/>
+<img width="100%" src="assets/footer.svg" alt="Footer"/>
 
 </div>
