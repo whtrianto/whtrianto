@@ -85,7 +85,7 @@
         .title {
           font-size: 44px;
           font-weight: 800;
-          background: linear-gradient(90deg, #58a6ff, #ab9df2, #ff79c6, #58a6ff);
+          background: linear-gradient(90deg, #58a6ff, #ab9df2, #ffdf5d, #58a6ff);
           background-size: 200% auto;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
