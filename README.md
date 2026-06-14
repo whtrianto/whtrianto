@@ -20,27 +20,20 @@
 <!-- ABOUT ME SECTION -->
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"> &nbsp;About Me
 
-```javascript
-const wahyu = {
-    pronouns: "He" | "Him",
-    role: "Full Stack Developer & UI/UX Designer",
-    location: "Indonesia 🇮🇩",
-    currentFocus: "Creating amazing digital experiences",
-    funFact: "I debug with console.log and I'm not ashamed 😄",
-    
-    skills: {
-        languages:  ["JavaScript", "TypeScript", "PHP", "HTML", "CSS"],
-        frontend:   ["React", "Next.js", "Vue.js", "TailwindCSS", "Bootstrap"],
-        backend:    ["Node.js", "Express", "Laravel"],
-        database:   ["MySQL", "PostgreSQL", "MongoDB"],
-        tools:      ["Git", "VS Code", "Figma", "Docker"],
-        design:     ["UI/UX", "Responsive Design", "Prototyping"]
-    },
+<img align="right" alt="Coding" width="320" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
-    currentlyLearning: "Always evolving 🌱",
-    motto: "Menciptakan pengalaman digital yang menakjubkan ✨"
-};
-```
+<br/>
+
+🔭 &nbsp;Saat ini fokus mengembangkan **Web Applications** modern\
+🎨 &nbsp;Passionate tentang **UI/UX Design** yang elegan\
+🌱 &nbsp;Selalu belajar hal baru & mengikuti tren teknologi\
+💼 &nbsp;Professional **Full Stack Developer** & **UI/UX Designer**\
+🌐 &nbsp;Kunjungi portfolio saya di [**wahyutrianto.anstonic.site**](https://wahyutrianto.anstonic.site/)\
+📍 &nbsp;Berbasis di **Indonesia** 🇮🇩\
+⚡ &nbsp;Fun fact: *I debug with `console.log` and I'm proud of it!* 😄
+
+<br/><br/>
+
 
 ---
 
